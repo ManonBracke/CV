@@ -1,0 +1,94 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1400px;
+  font-size: 1rem;
+}
+
+/*--------H--------*/
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #fff;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+h3 {
+  border-bottom: #ea4e4e 5px solid;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+/*--------Section--------*/
+#info2 {
+  padding-top: 100px;
+}
+
+/*--------Liste--------*/
+ul li {
+  list-style: none;
+  line-height: 30px;
+}
+
+/*--------Grid--------*/
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-column-gap: 100px;
+}
+
+.grid2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.gird3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+/*--------Autre--------*/
+.color {
+  background: #ea4e4e;
+  text-align: right;
+  padding: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.photo {
+  border: #ea4e4e 8px solid;
+  border-radius: 50%;
+  text-align: left;
+  float: left;
+  margin-top: -20px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -5,27 +5,31 @@ body{
     margin-right: auto;
     margin-left: auto;
     width: 1400px;
-    font-size: 18px;
+    font-size:1rem;
+    
 }
 /*--------H--------*/
 h1{
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 2rem;
     color: #fff;
 }
 h2{
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #fff;
 }
 h3{
-    border-bottom: #ea4e4e 5px solid;
+    border-bottom: #ea4e4e 5px solid; 
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.2rem;
 }
 /*--------Section--------*/
 #info2{
-       padding-top: 100px; 
+    padding-top: 100px; 
 }
 /*--------Liste--------*/
 ul li{
@@ -63,7 +67,7 @@ ul li{
 }
 .photo{
     border: #ea4e4e 8px solid;
-    border-radius: 100%;
+    border-radius: 50%;
     text-align: left;
     float: left;
     margin-top: -20px;
