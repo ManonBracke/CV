@@ -5,45 +5,55 @@ body{
     margin-right: auto;
     margin-left: auto;
     width: 1400px;
-    font-size:1rem;
-    
+    font-size:0.9rem;
+    line-height: 1rem;
 }
 /*--------H--------*/
 h1{
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #fff;
+
 }
 h2{
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #fff;
+    
     em{
         font-size: 1rem;
     }
 }
 h3{
     border-bottom: #ea4e4e 5px solid; 
+    padding-bottom: 0.8rem;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 0.5rem;
 }
 h4{
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 0.5rem;
 }
 /*--------Section--------*/
+#info{
+    margin-top: -2rem;
+}
 #info2{
-    padding-top: 6.2rem; 
+    padding-top: 1rem; 
 }
 /*--------Liste--------*/
 ul li{
     list-style: none;
-    line-height: 30px;
+    line-height: 2rem;
+    margin-top: -0.5rem;
 }
 /*--------Grid--------*/
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 6.2rem;
+    margin-top: -0.5rem;
 }
 .grid2{
     display: grid;
@@ -60,10 +70,11 @@ ul li{
 .color{
     background:#ea4e4e;
     text-align: right;
-    padding: 3.1rem;
+    padding: 1rem;
     margin-bottom: 3.1rem;
-    margin-top: 3.1rem;
+    margin-top: 3.2rem;
     margin-left: 4rem;
+    border-radius: 10px;
 }
 .bold{
     font-weight: bold;
@@ -74,6 +85,7 @@ ul li{
     text-align: left;
     float: left;
     margin-top: -1.2rem;
+    height: 150px;
 }
 a:link, a:visited{
     color: black;
@@ -87,5 +99,12 @@ a.lien:link, a.lien:visited{
 i{
     font-size: 1rem;
     color: #ea4e4e;
+}
 
+.contour{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 110rem;
+    padding: 1rem 4rem;
+    margin: 2rem 0;
+    border-radius: 2.5%;
 }
