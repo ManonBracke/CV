@@ -58,8 +58,8 @@ ul li {
 .grid2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 2.5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -99,5 +99,15 @@ ul li {
 a:link, a:visited {
   color: black;
   text-decoration: none;
+}
+
+a.lien:link, a.lien:visited {
+  color: #ea4e4e;
+  text-decoration: none;
+}
+
+i {
+  font-size: 1rem;
+  color: #ea4e4e;
 }
 /*# sourceMappingURL=style.css.map */
