@@ -77,6 +77,10 @@ ul li {
   justify-items: center;
 }
 
+.grid2 img {
+  height: 2rem;
+}
+
 .gird3 {
   display: -ms-grid;
   display: grid;

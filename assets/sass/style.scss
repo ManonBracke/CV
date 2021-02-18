@@ -61,6 +61,9 @@ ul li{
     grid-column-gap: 2.5rem;
     align-items: center;
     justify-items: center;
+    img{
+        height: 2rem;
+    }
 }
 .gird3{
     display: grid;
